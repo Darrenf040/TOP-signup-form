@@ -13,6 +13,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    flex-wrap: wrap;
 }
 .left-container h1{
     color: white;
@@ -85,4 +86,17 @@ label{
 .right-column{
     flex-flow: column;
 
+}
+
+/*let side footer*/
+.footer{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer > p{
+    margin: 0;
+    font-size: .8rem;
 }
