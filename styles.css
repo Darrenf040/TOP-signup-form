@@ -8,6 +8,7 @@ body{
 }
 .left-container{
     width: 40%;
+    min-width: 400px;
     background-image: url("background-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,5 +30,45 @@ body{
     margin-top: 200px;
 }
 .logo-container img{
-    width: 112px;
+    width: 90px;
+}
+
+.right-container{
+    flex: 1;
+    background-color: #F9F9F9;
+}
+.right-container > *{
+    padding: 0 10% 0 5%;
+
+}
+.right-text{
+    padding-top: 100px;
+    padding-bottom:20px ;
+}
+.right-text > p{
+    font-weight: 600;
+}
+.input-container{
+    background-color: white;
+    flex-flow: column;
+    gap: 10px;
+    width: 100%;
+    min-width: 600px;
+    box-shadow: 5px 5px 8px #888888;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+input{
+    margin: 20px 20px 20px 0;
+}
+
+.account-container{
+    padding-top: 20px;
+}
+button{
+    padding: 10px 40px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:#596D48 ;
+    color: white;
 }
