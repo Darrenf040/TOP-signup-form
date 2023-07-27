@@ -50,8 +50,6 @@ body{
 }
 .input-container{
     background-color: white;
-    flex-flow: column;
-    gap: 10px;
     width: 100%;
     min-width: 600px;
     box-shadow: 5px 5px 8px #888888;
@@ -59,7 +57,7 @@ body{
     padding-bottom: 10px;
 }
 input{
-    margin: 20px 20px 20px 0;
+    margin: 0px 20px 20px 0;
 }
 
 .account-container{
@@ -71,4 +69,20 @@ button{
     border-style: none;
     background-color:#596D48 ;
     color: white;
+}
+
+/*input box*/
+label{
+    display: block;
+}
+.input-boxes{
+    display: flex;
+
+}
+.left-column{
+    flex-flow: column wrap;
+}
+.right-column{
+    flex-flow: column;
+
 }
