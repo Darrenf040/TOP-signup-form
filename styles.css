@@ -61,6 +61,7 @@ body{
 input{
     margin: 0px 20px 20px 0;
     width: 250px;
+    border: 1px solid black;
 }
 
 .account-container{
@@ -88,6 +89,17 @@ label{
 .right-column{
     flex-flow: column;
 
+}
+input:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: green;
+}
+input:focus{
+    outline: none; /*overrides the defualt input style*/
+    box-shadow: 5px 5px 8px #888888;
+    border-color:blue ; 
 }
 
 /*let side footer*/
