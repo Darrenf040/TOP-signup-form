@@ -26,25 +26,27 @@
                 <h3>It's Time</h3>
             <div class="input-boxes">
                 <div class="left-column">
-                    <label for="">First Name</label>
-                    <input type="text">
-                    <label for="">Email</label>
-                    <input type="text">
-                    <label for="">Password</label>
-                    <input type="text">
+                    <form action="#" method="get">
+                    <label for="first_name">*First Name</label>
+                    <input type="text" name="first_name" id="first_name" required>
+                    <label for="email">*Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="password">*Password</label>
+                    <input type="password" name="password" id="password" required>
                 </div>
                 <div class="right-column">
-                    <label for="">Last Name</label>
-                    <input type="text">
-                    <label for="">Phone Number</label>
-                    <input type="text">
-                    <label for="">Confirm Password</label>
-                    <input type="text">
+                    <label for="last_name">*Last Name</label>
+                    <input type="text" name="last_name" id="last_name" required>
+                    <label for="phone_number">Phone Number</label>
+                    <input type="number" name="phone_number" id="phone_number">
+                    <label for="confirm_password">*Confirm Password</label>
+                    <input type="password" name="confirm_password" id="confirm_password" required>
                 </div>
             </div>
         </div>
         <div class="account-container">
-            <button type="button">Create Account</button>
+            <button type="submit">Create Account</button>
+            </form>
             <p>Already have an account? <a href="#">Log In</a> </p>
         </div>
     </div>
